@@ -195,5 +195,5 @@ npm start	Starts the production server
 Trivendra Kumar
 💼 Full Stack Developer — React, Node.js, MongoDB, TypeScript
 📧 strivendra002@gmail.com
-🌐 GitHub | LinkedIn
+🌐 [strivendra002](https://portfolio-two-pi-ejaoseqvam.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/trivendra-kumar-b9302a226/)
 
