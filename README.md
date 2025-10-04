@@ -181,9 +181,11 @@ test('Scores submission properly', async () => {
 🧰 Available Scripts
 Command	Description -
 ```npm run server```	Starts the development server using Nodemon
+
 ```npm test```	Runs Jest test suite
+
 ```npm start```	Starts the production server
----
+
 📈 Future Enhancements
 
 🚪 JWT-based authentication
@@ -191,7 +193,7 @@ Command	Description -
 🏆 Leaderboard for top scorers
 📊 Admin dashboard for quiz analytics
 📚 Quiz history tracking per user
----
+
 👨‍💻 Author
 Trivendra Kumar
 💼 Full Stack Developer — React, Node.js, MongoDB, TypeScript
