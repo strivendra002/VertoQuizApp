@@ -70,9 +70,10 @@ VertoQuizApp/
 ```bash
 git clone https://github.com/strivendra002/VertoQuizApp.git
 cd VertoQuizApp
+```
 
 2️⃣ Install Dependencies
-npm install
+```npm install ```
 3️⃣ Add Environment Variables
 MONGO_URI=your_mongodb_connection_string
 PORT=4000
@@ -82,13 +83,15 @@ Server runs at 👉 http://localhost:4000
 
 Curl-
 //create quiz- Quiz Title
+```
 curl --location 'http://localhost:4000/api/create-quiz' \
 --header 'Content-Type: application/json' \
 --data '{
     "title":"MongoDB"
 }'
-
+```
 //add - Questions
+```
 curl --location 'http://localhost:4000/api/68dfc4f8914e1891fb68806e/add-question' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -102,8 +105,9 @@ curl --location 'http://localhost:4000/api/68dfc4f8914e1891fb68806e/add-question
   ],
   "correctOptions": [1]
 }'
-
+```
 //get Questions -
+```
 curl --location 'http://localhost:4000/api/68dfc4f8914e1891fb68806e/get-questions' \
 --data ''
 
@@ -118,13 +122,17 @@ curl --location 'http://localhost:4000/api/68dfc4f8914e1891fb68806e/submitAnswer
     }
     ]
 }'
+```
+
 //get all Quizes
+```
 curl --location 'http://localhost:4000/api/get-all-quiz' \
 --data ''
-
+```
 Testing
-npm test
+```npm test```
 Example Test (submitAnswer.test.js)
+```
 import { submitAnswers } from "../controller/submitAnswer.controller";
 
 test('Scores submission properly', async () => {
@@ -168,7 +176,7 @@ test('Scores submission properly', async () => {
     }
   ]
 }
-
+```
 🧰 Available Scripts
 Command	Description
 npm run server	Starts the development server using Nodemon
@@ -184,11 +192,8 @@ npm start	Starts the production server
 📚 Quiz history tracking per user
 
 👨‍💻 Author
-
 Trivendra Kumar
 💼 Full Stack Developer — React, Node.js, MongoDB, TypeScript
 📧 strivendra002@gmail.com
+🌐 GitHub | LinkedIn
 
-🌐 strivendra002
- | https://www.linkedin.com/in/trivendra-kumar-b9302a226/
-```
