@@ -179,9 +179,9 @@ test('Scores submission properly', async () => {
 ```
 🧰 Available Scripts
 Command	Description
-npm run server	Starts the development server using Nodemon
-npm test	Runs Jest test suite
-npm start	Starts the production server
+```npm run server```	Starts the development server using Nodemon
+```npm test```	Runs Jest test suite
+```npm start```	Starts the production server
 
 📈 Future Enhancements
 
